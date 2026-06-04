@@ -1,6 +1,6 @@
 from typing import Any, Optional
 from abc import ABC, abstractmethod
-from .structures import DoublyLinkedList, Node  # Точечная нотация для модулей внутри пакета
+from structures import DoublyLinkedList, Node  # Точечная нотация для модулей внутри пакета
 
 class BaseCache(ABC):
     """
